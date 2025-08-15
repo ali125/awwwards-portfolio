@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import ServiceSummary from "./components/ServiceSummary";
 import About from "./components/About";
+import Works from "./components/Works";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <ServiceSummary />
       <Services />
       <About />
+      <Works />
     </ReactLenis>
   );
 };
