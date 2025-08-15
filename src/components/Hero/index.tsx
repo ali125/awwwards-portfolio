@@ -3,7 +3,7 @@ import AnimatedTextLines from "../AnimatedTextLines";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Canvas } from "@react-three/fiber";
-import { PlanetModel } from "../Planet";
+import { PlanetModel } from "./Planet";
 import { Environment, Float, Lightformer } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 
