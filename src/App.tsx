@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import ServiceSummary from "./components/ServiceSummary";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Hero />
       <ServiceSummary />
       <Services />
-      <section className="min-h-screen" />
+      <About />
     </ReactLenis>
   );
 };
